@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(248, 227, 201, 0.993);
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+.header, .footer {
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #1F2937;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;    
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    gap:10px;
+    padding: 15px;
+}
+
+.box1a {
+    width: 400px;
+}
