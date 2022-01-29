@@ -2,17 +2,32 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
-    background-color: rgba(248, 227, 201, 0.993);
+    padding: 0px;
+    background-color: rgba(252, 135, 10, 0.993);
 }
-
 * {
     margin: 0;
 }
 
 img {
+    height: 150px;
+    width: auto;
+}
+
+#logo{
+    background-color: rgba(252, 135, 10, 0.993);
+    border-radius: 25px;
     height: 100px;
     width: auto;
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: rgb(6, 149, 245);
+    border-radius: 10px;
+    padding: 4px;
+    border-style: none;
 }
 
 .header, .footer {
@@ -21,6 +36,25 @@ img {
     font-size: 20px;
     color: white;
     background-color: #1F2937;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 120px;
+}
+
+ul , a {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
 .page {
@@ -40,4 +74,59 @@ img {
 
 .box1a {
     width: 400px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box2a{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.bluebox {
+ color: blue;
+ background-color: white;
+ border-radius: 25%;
+ height: 100px;
+ width: 100px;
+}
+
+#bluetext {
+    text-align: center;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    background-color: white;
+}
+
+.h4{ align-self: flex-end;}
+
+.box4{ 
+background: #3882f6;
+width: 600px;
+border-radius: 25px;
+display: flex;
+justify-content: space-around;
+align-self: center;
+margin: 20px;
+padding: 30px;
+}
+
+.signup2 {
+    border-color: white;
+    border-style: solid;
 }
