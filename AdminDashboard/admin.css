@@ -189,7 +189,7 @@
     background-color: white;
     border-radius: 10px;
     grid-column: 2/3;
-    font-size: clamp(1rem, 1.5rem, 2rem);
+    font-size: clamp(1rem,  le1.5rem, 2rem);
     display: grid;
     justify-self: start;
     grid-template-columns: 40% 60%;
